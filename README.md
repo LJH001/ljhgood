@@ -1,3 +1,6 @@
+
+                                                Android常见问题解析
+                                                
 1、在BaseActivity中，在onCreate方法里，写方法，那么在它的子类，onCreate方法中的super.onCreate()后变开始执行父类的方法，之后才执行super.onCreate()后的方法，也就是setContentView（）；
      从以上可以看出，子类继承父类，那么回调方法一定是在父类中的某个方法中执行，例如：在父类onCreate方法里调用了抽象方法，那么子类在super.onCreate()方法里便会回调，再去执行下面的代码
 
